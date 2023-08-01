@@ -1,0 +1,348 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/Helvetica-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/helvetica-light-587ebe5a59211.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+  }
+  
+  /* Add more variations if needed (e.g., bold italic) */
+  
+
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Helvetica';
+    box-sizing: border-box;
+}
+
+
+.heading{
+    font-weight: bold;
+    color: #000;
+}
+
+h1.heading{
+    font-size: 34px;
+    line-height: 44px;
+}
+h2.heading{
+    font-size: 30px;
+    line-height: 40px;
+}
+h3.heading{
+    font-size: 26px;
+    line-height: 36px;
+}
+h4.heading{
+    font-size: 22px;
+    line-height: 32px;
+}
+h5.heading{
+    font-size: 18px;
+    line-height: 28px;
+}
+h6.heading{
+    font-size: 14px;
+    line-height: 24px;
+}
+.paragraph{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: normal;
+    color: #000;
+}
+
+a{
+  color: #D1787F!important;  
+}
+
+.orderedList a{
+    color: #8152A1!important;
+}
+
+.purpleBG{
+    background: #8152A1!important;
+}
+.greenBG{
+    background: #7ED957!important;
+}
+.brownBG{
+    background: #63211C!important;
+}
+.purpleFont{
+    color: #8152A1!important;
+}
+.blueBG{
+    background: #091830;
+}
+.lightBlueBG{
+    background: #1F7CE0;
+}
+
+.awardLabel{
+    background-color: #091830;
+}
+
+.shareDropdown button{
+    font-size: 16px;
+    line-height: 26px;
+    width: max-content;
+}
+
+.rankPoint{
+    width: 50px;
+    height: 50px;
+}
+
+.affiliateBtn{
+    font-size: 14px;
+    max-width: 150px;
+}
+
+.paragraph.price{
+    color: #545454!important;
+    font-size: 14px;
+}
+.paragraph.present.price{
+    font-size: 16px;
+}
+
+.topRankPoint{
+    width: 80px;
+    height: 80px;
+}
+
+.topRankLabel{
+    color: #D1787F!important;
+}
+
+.productImage{
+    max-width: 300px;
+}
+
+.ratings{
+    top: 50%;
+    left: -90px;
+    transform: translate(0, -50%);
+}
+
+.likeIcon{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #8152A1;
+    cursor: pointer;
+}
+.unlikeIcon{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #D1787F;
+    cursor: pointer;
+}
+
+.likeratingCount{
+    font-size: 22px;
+    color: #8152A1;
+}
+.unlikeratingCount{
+    font-size: 22px;
+    color: #D1787F;
+}
+
+.scoreLabel{
+    background-color: #091830;
+}
+
+.buyBtn{
+    min-width: 190px;
+}
+
+.productAccHead::after{
+    content: url(/assets/images/accMinus.png);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+}
+.productAccHead.collapsed::after{
+    content: url(/assets/images/accPlus.png);
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+}
+
+.ratingContainer{
+    max-width: 400px;
+}
+
+.rateScoreBar{
+    height: 10px;
+    background-color: #EDEFED;
+}
+.thumbnail{
+    border-radius: 20px;
+}
+.archivePostBodyContent{
+    margin-top: -50px;
+    display: inline-block;
+    background-color: #C6CBD0;
+}
+
+.yesRate, .noRate{
+    border: 2px solid;
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.yesRate{
+    border-color: #8152A1;
+    color: #8152A1;
+}
+.noRate{
+    border-color: #D1787F;
+    color: #D1787F;
+}
+
+.compareRatingContainer .paragraph{
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.compareRatingContainer .rateScoreBar{
+    height: 5px;
+}
+
+
+.scoreCircle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 90%, transparent 92% 100%),
+      conic-gradient(#8152A1 0, #091830 0);    
+      position: relative;
+  }
+  
+.paragraph.scoreNumber{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    line-height: 38px;
+}
+  
+.reviewAccContainer{
+    background: #FFFBEA;
+}  
+
+.timelineCircle{
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.reviewedTimelineContent{
+    padding-left: 40px;
+}
+
+.reviewedTimelineLine{
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    top: 0;
+    left: 13px;
+}
+
+.prosList, .consList{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.prosList li::before{
+    content: url(/assets/images/tick.png);
+    margin-right: 5px;
+    margin-bottom: -7px;
+}
+.consList li::before{
+    content: url(/assets/images/cross.png);
+    margin-right: 5px;
+    margin-bottom: -7px;
+}
+
+@media (max-width: 992px) {
+    
+    h1.heading{
+        font-size: 28px;
+        line-height: 38px;
+    }
+    h2.heading{
+        font-size: 24px;
+        line-height: 34px;
+    }
+    h3.heading{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    h4.heading{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    h5.heading{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .paragraph, .shareDropdown button {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .rankTable .heading{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .topRankPoint {
+        width: 60px;
+        height: 60px;
+    }
+
+    .likeIcon, .unlikeIcon {
+        width: 40px;
+        height: 40px;
+     }
+     .likeIcon svg, .unlikeIcon svg {
+        width: 20px;
+        height: 20px;
+     }
+     .ratings {
+        top: 50%;
+        left: -20px;
+        transform: translate(0, -50%);
+    }
+    .productImage img{
+        max-width: 200px;
+    }
+}
