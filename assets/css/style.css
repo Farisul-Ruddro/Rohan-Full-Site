@@ -69,6 +69,7 @@ h6.heading{
 
 a{
   color: #D1787F!important;  
+  text-decoration: none!important;
 }
 
 .orderedList a{
@@ -88,7 +89,7 @@ a{
     color: #8152A1!important;
 }
 .blueBG{
-    background: #091830;
+    background: #002C72;
 }
 .lightBlueBG{
     background: #1F7CE0;
@@ -111,7 +112,6 @@ a{
 
 .affiliateBtn{
     font-size: 14px;
-    max-width: 150px;
 }
 
 .paragraph.price{
@@ -291,6 +291,14 @@ a{
     content: url(/assets/images/cross.png);
     margin-right: 5px;
     margin-bottom: -7px;
+}
+
+.productMetaACC{
+    background-color: #dfdfdf;
+}
+
+.brandClaimBtn{
+    font-size: 12px;
 }
 
 @media (max-width: 992px) {
