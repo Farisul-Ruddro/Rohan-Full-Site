@@ -126,6 +126,15 @@ a{
     line-height: 18px;
 }
 
+.footerContainer{
+    background-color: rgb(255, 255, 236);
+}
+
+.footerItems .paragraph{
+    font-size: 14px;
+    line-height: 20px;
+}
+
 .awardLabel{
     background-color: #091830;
 }
