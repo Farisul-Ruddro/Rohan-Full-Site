@@ -293,11 +293,11 @@ a{
     margin-bottom: -7px;
 }
 
-.productMetaACC{
+.productMetaACC, .referencesBG{
     background-color: #dfdfdf;
 }
 
-.brandClaimBtn{
+.brandClaimBtn, .tabletsBrandLabel{
     font-size: 12px;
 }
 
