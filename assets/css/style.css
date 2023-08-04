@@ -95,6 +95,37 @@ a{
     background: #1F7CE0;
 }
 
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.hamburger.active{
+    display: block;
+}
+
+.headerContainer{
+    height: 12vh;
+}
+
+.menuItemsContainer{
+    display: none;
+    position: absolute;
+    top: 12vh;
+    max-height: 75vh;
+    overflow-y: auto;
+    background-color: rgb(255, 255, 236);
+    z-index: 999;
+}
+
+.menuItemsContainer.active{
+    display: block;
+}
+
+.menu-item .paragraph{
+    font-size: 12px;
+    line-height: 18px;
+}
+
 .awardLabel{
     background-color: #091830;
 }

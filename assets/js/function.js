@@ -21,3 +21,27 @@ if(scoreCircleMain.length > 0) {
     }
   });
 }
+
+
+var hamburgerOpen = document.getElementById("hamBurgerOpen");
+var hamburgerClose = document.getElementById("hamBurgerClose");
+var menuItemsContainer = document.querySelectorAll(".menuItemsContainer");
+
+hamburgerOpen.addEventListener("click", function(){
+  this.classList.remove("active");
+  hamburgerClose.classList.add("active");
+
+  for(var i = 0; i < menuItemsContainer.length; i++){
+    menuItemsContainer[i].classList.add("active");
+  }
+
+});
+hamburgerClose.addEventListener("click", function(){
+  this.classList.remove("active");
+  hamburgerOpen.classList.add("active");
+
+  for(var x = 0; x < menuItemsContainer.length; x++){
+    menuItemsContainer[x].classList.remove("active");
+  }
+
+})
