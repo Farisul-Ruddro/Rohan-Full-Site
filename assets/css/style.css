@@ -103,14 +103,9 @@ a{
     display: block;
 }
 
-.headerContainer{
-    height: 12vh;
-}
-
 .menuItemsContainer{
     display: none;
     position: absolute;
-    top: 12vh;
     max-height: 75vh;
     overflow-y: auto;
     background-color: rgb(255, 255, 236);
