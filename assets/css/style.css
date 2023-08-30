@@ -320,12 +320,10 @@ a{
 .prosList li::before{
     content: url(/assets/images/tick.png);
     margin-right: 5px;
-    margin-bottom: -7px;
 }
 .consList li::before{
     content: url(/assets/images/cross.png);
     margin-right: 5px;
-    margin-bottom: -7px;
 }
 
 .productMetaACC, .referencesBG{
