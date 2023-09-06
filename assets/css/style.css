@@ -90,6 +90,9 @@ a{
 .purpleFont{
     color: #8152A1!important;
 }
+.blueFont{
+    color: #002C72;
+}
 .blueBG{
     background: #002C72;
 }
@@ -388,6 +391,7 @@ a{
     border-top-right-radius: 0.375rem;
 }
 
+
 #compareTable tbody tr th{
     min-width: 180px;
 }
@@ -446,5 +450,15 @@ a{
     }
     .productImage img{
         max-width: 200px;
+    }
+
+    .scoreCircle {
+        width: 40px;
+        height: 40px;
+      }
+      
+    .paragraph.scoreNumber{
+        font-size: 16px;
+        line-height: 26px;
     }
 }
