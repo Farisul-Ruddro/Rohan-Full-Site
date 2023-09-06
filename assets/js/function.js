@@ -11,7 +11,8 @@ if(scoreCircleMain.length > 0) {
     // Check if a progress bar element is found
     if(progressBar) {
       // Get the value of the progress bar
-      const progressValue = progressBar.value;
+      let progressValue = progressBar.value;
+      progressValue = (progressValue*100)/10;
 
       // Calculate the dynamic conic-gradient value based on progressValue
       const dynamicConicGradient = `conic-gradient(#8152A1 ${progressValue}%, #EDEFED 0)`;
