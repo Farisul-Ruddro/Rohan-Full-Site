@@ -45,4 +45,23 @@ hamburgerClose.addEventListener("click", function(){
     menuItemsContainer[x].classList.remove("active");
   }
 
-})
+});
+
+
+
+
+
+// Accordion
+
+$(".accordion-title").click(function() {
+  if ($(this).hasClass("active")) {
+    // If the clicked element already has the "active" class, remove it and slide up
+    $(this).removeClass("active").next().slideUp("600ms");
+  } else {
+    // If the clicked element doesn't have the "active" class, add it and slide down
+    $(this).addClass("active").next().slideDown("600ms");
+
+    // Remove the "active" class and slide up from other elements
+    $(".accordion-title").not(this).removeClass("active").next().slideUp("600ms");
+  }
+});

@@ -217,15 +217,24 @@ a{
     min-width: 190px;
 }
 
+.accordion-body{
+    display: none;
+}
+
+.productAccHead{
+    cursor: pointer;
+}
+
 .productAccHead::after{
-    content: url(/assets/images/accMinus.png);
+    content: url(/assets/images/accPlus.png);
     position: absolute;
     top: 50%;
     right: 0;
     transform: translate(0, -50%);
 }
-.productAccHead.collapsed::after{
-    content: url(/assets/images/accPlus.png);
+
+.productAccHead.active::after{
+    content: url(/assets/images/accMinus.png);
     position: absolute;
     top: 50%;
     right: 0;
