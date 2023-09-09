@@ -21,7 +21,7 @@ if(scoreCircleMain.length > 0) {
       element.style.background = `radial-gradient(closest-side, white 90%, transparent 92% 100%), ${dynamicConicGradient}`;
     }
   });
-}
+};
 
 
 var hamburgerOpen = document.getElementById("hamBurgerOpen");
