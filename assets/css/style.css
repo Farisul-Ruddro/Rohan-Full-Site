@@ -108,6 +108,8 @@ a{
     display: block;
 }
 
+/* New Update Start */
+
 .searchBarContainer{
     height: 40px;
 }
@@ -150,6 +152,9 @@ a{
     z-index: 1;
     display: none;
 }
+
+/* New Update End */
+
 
 .menuItemsContainer{
     display: none;
@@ -451,6 +456,8 @@ a{
     min-width: 180px;
 }
 
+/* New Update Start */
+
 .languageSwitcherCont{
     width: fit-content;
 }
@@ -459,6 +466,7 @@ a{
     padding: 0 30px;
     appearance: none;
 }
+/* New Update End */
 
 @media (max-width: 992px) {
     
