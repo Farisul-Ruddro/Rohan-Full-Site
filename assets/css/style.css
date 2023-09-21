@@ -108,6 +108,29 @@ a{
     display: block;
 }
 
+.searchBarContainer{
+    height: 40px;
+}
+
+.searchInput{
+    width: 0px;
+    padding: 0;
+    overflow: hidden;
+    transition: width 0.4s ease-in-out;
+    margin-left: auto; 
+    box-sizing: border-box; 
+}
+
+.searchBarIcon{
+    padding: 0px;
+}
+
+.searchCloseIconSVG{
+    display: none;
+    z-index: 2;
+    transition: 0.2s;
+}
+
 .menuItemsContainer{
     display: none;
     position: absolute;

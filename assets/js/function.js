@@ -48,8 +48,18 @@ hamburgerClose.addEventListener("click", function(){
 });
 
 
+// SearchBar
 
+let searchBar = document.querySelector(".searchInput");
+let searchOpenBtnIcon = document.querySelector(".searchIconSVG");
+let searchCloseBtnIcon = document.querySelector(".searchCloseIconSVG");
+let searchBarStyle = `margin-left: auto; width: 250px; padding: 8px 50px 8px 16px;`;
 
+searchOpenBtnIcon.addEventListener("click", function(){
+  searchBar.style = searchBarStyle;
+  searchOpenBtnIcon.style.display = "none";
+  searchCloseBtnIcon.style = `margin-right: 10px; display: block;`;
+});
 
 // Accordion
 
