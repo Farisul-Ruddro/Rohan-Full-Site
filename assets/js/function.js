@@ -53,12 +53,16 @@ hamburgerClose.addEventListener("click", function(){
 let searchBar = document.querySelector(".searchInput");
 let searchOpenBtnIcon = document.querySelector(".searchIconSVG");
 let searchCloseBtnIcon = document.querySelector(".searchCloseIconSVG");
-let searchBarStyle = `margin-left: auto; width: 250px; padding: 8px 50px 8px 16px;`;
 
 searchOpenBtnIcon.addEventListener("click", function(){
-  searchBar.style = searchBarStyle;
+  searchBar.classList.add("active");
   searchOpenBtnIcon.style.display = "none";
-  searchCloseBtnIcon.style = `margin-right: 10px; display: block;`;
+  searchCloseBtnIcon.style.display = "block";
+});
+searchCloseBtnIcon.addEventListener("click", function(){
+  searchBar.classList.remove("active");
+  searchOpenBtnIcon.style.display = "block";
+  searchCloseBtnIcon.style.display = "none";
 });
 
 // Accordion

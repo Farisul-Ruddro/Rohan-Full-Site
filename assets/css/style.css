@@ -114,21 +114,41 @@ a{
 
 .searchInput{
     width: 0px;
+    height: 100%;
     padding: 0;
     overflow: hidden;
-    transition: width 0.4s ease-in-out;
     margin-left: auto; 
     box-sizing: border-box; 
+    transition: width 0.4s ease-in-out;
+    z-index: 2;
+}
+.searchInput.active{
+    margin-left: auto; 
+    width: 300px; 
+    padding: 8px 50px 8px 16px;
 }
 
 .searchBarIcon{
     padding: 0px;
+    z-index: 3;
 }
 
 .searchCloseIconSVG{
     display: none;
-    z-index: 2;
+    margin-right: 10px;
     transition: 0.2s;
+}
+.searchResultsDropdown{
+    background: #FFFBE8;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 300px;
+    padding-top: 30px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    z-index: 1;
+    display: none;
 }
 
 .menuItemsContainer{
@@ -429,6 +449,15 @@ a{
 }
 #compareTable tbody tr td{
     min-width: 180px;
+}
+
+.languageSwitcherCont{
+    width: fit-content;
+}
+
+.languageSwitcher{
+    padding: 0 30px;
+    appearance: none;
 }
 
 @media (max-width: 992px) {
