@@ -1,0 +1,9 @@
+.activeReaders {
+  max-width: 400px;
+}
+
+.readerStats {
+  max-width: 300px;
+  bottom: 100px;
+  left: -30%;
+}
