@@ -7,3 +7,29 @@
   bottom: 100px;
   left: -30%;
 }
+
+.postImgBig {
+  object-fit: cover;
+}
+
+.postShortCard {
+  border-bottom: 1px solid #6f1ab6;
+}
+
+.postShortCard-img {
+  max-width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.postShortCard-cont {
+  gap: 20px;
+}
+
+.postShortCard .categoryLabel {
+  font-size: 12px;
+}
+
+.postShortCard .postDate {
+  font-size: 12px;
+}
