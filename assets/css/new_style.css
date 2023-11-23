@@ -35,27 +35,32 @@
   font-size: 12px;
 }
 
-
-.twoColumnImgContent{
-  margin-left: -100px!important;
+.twoColumnImgContent {
+  margin-left: -100px !important;
 }
 
-.twoColumnLeftImg img{
+.twoColumnLeftImg img {
   width: 100%;
 }
 
+.expertLabel,
+.expertDetails {
+  font-size: 12px;
+  line-height: 22px;
+}
+
 @media (max-width: 768px) {
-  .twoColumnImgContent{
-    margin-left: 0px!important;
+  .twoColumnImgContent {
+    margin-left: 0px !important;
     text-align: center;
   }
 
-  .twoColumnLeftImg img{
+  .twoColumnLeftImg img {
     width: auto;
     max-height: 250px;
   }
 
-  .readerImg{
+  .readerImg {
     width: 50%;
   }
 
