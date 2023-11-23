@@ -3,6 +3,7 @@
 }
 
 .readerStats {
+  width: 100%;
   max-width: 300px;
   bottom: 100px;
   left: -30%;
@@ -32,4 +33,35 @@
 
 .postShortCard .postDate {
   font-size: 12px;
+}
+
+
+.twoColumnImgContent{
+  margin-left: -100px!important;
+}
+
+.twoColumnLeftImg img{
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .twoColumnImgContent{
+    margin-left: 0px!important;
+    text-align: center;
+  }
+
+  .twoColumnLeftImg img{
+    width: auto;
+    max-height: 250px;
+  }
+
+  .readerImg{
+    width: 50%;
+  }
+
+  .readerStats {
+    width: 50%;
+    bottom: 20px;
+    left: 0;
+  }
 }
