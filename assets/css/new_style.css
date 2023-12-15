@@ -551,31 +551,6 @@ th {
   border-top-width: var(--zot-list-group-border-width);
 }
 
-/* rtl:begin:ignore */
-
-/* rtl:end:ignore */
-
-/* rtl:begin:ignore */
-
-/* rtl:end:ignore */
-
-/* rtl:begin:ignore */
-
-/* rtl:end:ignore */
-
-/* rtl:begin:ignore */
-
-/* rtl:end:ignore */
-
-/* rtl:options: {
-      "autoRename": true,
-      "stringMap":[ {
-        "name"    : "prev-next",
-        "search"  : "prev",
-        "replace" : "next"
-      } ]
-    } */
-
 @keyframes spinner-border {
   to {
     transform: rotate(360deg) /* rtl:ignore */;
