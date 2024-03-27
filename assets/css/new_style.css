@@ -331,6 +331,7 @@ th {
   margin-top: var(--zot-gutter-y);
 }
 
+
 .zot_col-4 {
   flex: 0 0 auto;
   width: 33.33333333%;
@@ -347,6 +348,10 @@ th {
 }
 
 @media (min-width: 576px) {
+  .zot_col-sm-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
   .zot_col-sm-5 {
     flex: 0 0 auto;
     width: 41.66666667%;
@@ -1176,4 +1181,26 @@ th {
   bottom: 5px;
 }
 
+/* Archive Design */
 
+.supplimentSorting {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.supplimentSorting .sortingPointer {
+  background-color: #c5c6c7;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.supplimentSorting .sortingPointer.numeric {
+  width: 80px;
+  height: 40px;
+}
