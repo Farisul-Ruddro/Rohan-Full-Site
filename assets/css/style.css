@@ -413,3 +413,12 @@
         line-height: 26px;
     }
 }
+
+
+.brandHero{
+    height: 400px;
+    background-color: #eeeeee;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
